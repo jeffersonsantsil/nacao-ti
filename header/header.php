@@ -15,33 +15,35 @@
 </head>
 
 <header>
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg">
-            <a href="http://nacaoti.com.br" class="navbar-brand">
-                <img id="logo" src="public/imgs/logo_nacaoti.svg" alt="logo nacao ti"></a>
+    <div class="container-fluid">
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #0AA5F4;" >
+                <a href="http://nacaoti.com.br" class="navbar-brand">
+                    <img class="img-fluid" id="logo" src="public/imgs/logo_nacaoti.svg" alt="logo nacao ti"></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!--LINKS DO MENU-->
-            <div class="collapse navbar-collapse justify-content-end" id="menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <!--LINKS DO MENU-->
+                <div class="collapse navbar-collapse justify-content-end mynav"  id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
 
 </header>

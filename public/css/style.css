@@ -1,3 +1,31 @@
 body{
 	size: 12px;
+	padding: 0;
+}
+
+header{
+	background-color: #0AA5F4;
+	height: 252,667px;
+}
+
+/*ul{
+	padding: 20px;
+}*/
+
+/*li{
+	margin-right: 20px;
+}*/
+
+.mynav a{
+	margin-right: 20px;
+	border: 100px;
+}
+
+.mynav a:hover{
+	-webkit-transition: .2s;
+	border-bottom: 2px solid #063A7D;
+	background-color: #063A7D;
+	color: white !important;
+	border-radius: 5px;	
+	text-align: center;
 }
